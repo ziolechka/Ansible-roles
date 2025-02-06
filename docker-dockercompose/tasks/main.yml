@@ -1,4 +1,8 @@
 ---
+  - name: Install zip, unzip
+    package:
+      name: zip
+      state: present
   - name: Install docker packages
     remote_user: ubuntu
     apt:
